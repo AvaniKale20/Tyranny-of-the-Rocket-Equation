@@ -10,3 +10,8 @@ with open(file, 'r') as massFile:
     print("Reading values from txt file---")
     print(values)
 
+#  we have to splits mass values
+splittedValues = values.splitlines()
+print("splitted value--")
+print(splittedValues)
+print()
