@@ -15,3 +15,9 @@ splittedValues = values.splitlines()
 print("splitted value--")
 print(splittedValues)
 print()
+
+print("calculated fuel requirement for perticular module-- ")
+
+for fuelValue in splittedValues:
+    calculatedFuelValue = math.floor(int(fuelValue) / 3) - 2
+    print(calculatedFuelValue)
