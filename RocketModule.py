@@ -3,7 +3,7 @@ import os
 
 file = os.path.expanduser('massInput.txt')
 
-# totalFuelRequirement = 0
+totalFuelRequirement = 0
 
 with open(file, 'r') as massFile:
     values = massFile.read()
@@ -21,3 +21,8 @@ print("calculated fuel requirement for perticular module-- ")
 for fuelValue in splittedValues:
     calculatedFuelValue = math.floor(int(fuelValue) / 3) - 2
     print(calculatedFuelValue)
+    totalFuelRequirement = totalFuelRequirement + calculatedFuelValue
+    print()
+print("Total fuel requirement for all modules--------------------")
+print(totalFuelRequirement)
+
