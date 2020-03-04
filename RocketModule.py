@@ -22,7 +22,7 @@ for fuelValue in splittedValues:
     calculatedFuelValue = math.floor(int(fuelValue) / 3) - 2
     print(calculatedFuelValue)
     totalFuelRequirement = totalFuelRequirement + calculatedFuelValue
-    print()
+print()
 print("Total fuel requirement for all modules--------------------")
 print(totalFuelRequirement)
 
