@@ -16,6 +16,7 @@ print(splittedValues)
 print()
 
 calculated_fuel = 0
+total_fuels=0
 
 
 def calculateOfSubFuel(x):
@@ -34,3 +35,5 @@ for n in splittedValues:
     calculateOfSubFuel(n)
 print()
 print("calculation of sub fuel --",calculated_fuel)
+
+
